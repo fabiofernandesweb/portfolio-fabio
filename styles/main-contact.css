@@ -36,3 +36,24 @@ main #contact .content form {
 main #contact .content form label {
     font-weight: 500;
 }
+
+main #contact .content form input,
+main #contact .content form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ffffff30;
+    border-radius: 0.5rem;
+    border: 0.063rem solid var(--cor-texto);
+    font-family: inherit;
+    resize: none;
+    font-size: 1rem;
+
+}
+
+main #contact .content form input:focus,
+main #contact .content form textarea:focus {
+    outline: none;
+    border: 0.063rem solid var(--cor-secundaria);
+}
+
+main 
