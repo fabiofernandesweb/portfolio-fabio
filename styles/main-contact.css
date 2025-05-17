@@ -56,4 +56,22 @@ main #contact .content form textarea:focus {
     border: 0.063rem solid var(--cor-secundaria);
 }
 
-main 
+main #contact .content form button {
+    width: 15rem;
+    margin: 0.5rem auto 0;
+    font-size: 1.2rem;
+    color: var(--cor-principal);
+    padding: 0.75rem;
+    border-radius: 1.563rem;
+    border: none;
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main #contact .content form button:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: 0.063rem solid var(--cor-secundaria);
+}
+
